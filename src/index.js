@@ -3,13 +3,16 @@ import ReactDOM from "react-dom"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
 import { BrowserRouter as Router } from "react-router-dom"
+import { Provider } from "jotai"
 import "./bootstrap.css"
 import "./app.css"
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <Provider>
+        <App />
+      </Provider>
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
