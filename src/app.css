@@ -1,0 +1,15 @@
+body {
+  padding-top: 2em;
+}
+
+.btn-row {
+  display: inline-block;
+}
+
+.btn-row > .btn-spacing:not(:last-child) {
+  margin-right: 10px;
+}
+
+.top-padding {
+  padding-top: 3em;
+}
