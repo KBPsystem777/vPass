@@ -11,7 +11,12 @@ body {
 }
 
 .homepage-padding {
-  padding-top: 10em;
+  padding-top: 5em;
+}
+
+.logo {
+  width: 12em;
+  height: auto;
 }
 
 .passport-top-padding {
